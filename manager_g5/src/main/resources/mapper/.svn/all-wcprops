@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper
+END
+BscardprintMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/BscardprintMapper.xml
+END
+RoomMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/RoomMapper.xml
+END
+UserMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/UserMapper.xml
+END
+IncomeproofMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/IncomeproofMapper.xml
+END
+LogMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/LogMapper.xml
+END
+TongzhiMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/TongzhiMapper.xml
+END
+BookborrowMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/BookborrowMapper.xml
+END
+ChapterMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/ChapterMapper.xml
+END
+RoleMenuMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/RoleMenuMapper.xml
+END
+FilemanageMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/FilemanageMapper.xml
+END
+BookMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/BookMapper.xml
+END
+LeaveMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/LeaveMapper.xml
+END
+DeptMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/DeptMapper.xml
+END
+RoomYudingMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/RoomYudingMapper.xml
+END
+RenwuMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/RenwuMapper.xml
+END
+RoleMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/RoleMapper.xml
+END
+CarReserveMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/CarReserveMapper.xml
+END
+BstrequestMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/BstrequestMapper.xml
+END
+MenuMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/MenuMapper.xml
+END
+CarMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/CarMapper.xml
+END
+AgencyMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/manager_g5/!svn/ver/1/src/main/resources/mapper/AgencyMapper.xml
+END

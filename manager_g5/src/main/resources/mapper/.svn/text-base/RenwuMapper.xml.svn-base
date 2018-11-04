@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.RenwuMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Renwu">
+    <id column="rw_id" jdbcType="INTEGER" property="rwId" />
+    <result column="rw_type" jdbcType="INTEGER" property="rwType" />
+    <result column="rw_number" jdbcType="INTEGER" property="rwNumber" />
+    <result column="rw_name" jdbcType="VARCHAR" property="rwName" />
+    <result column="rw_shenqinren" jdbcType="INTEGER" property="rwShenqinren" />
+    <result column="rw_shenheren" jdbcType="INTEGER" property="rwShenheren" />
+    <result column="rw_startdate" jdbcType="DATE" property="rwStartdate" />
+    <result column="rw_enddate" jdbcType="DATE" property="rwEnddate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    rw_id, rw_type, rw_number, rw_name, rw_shenqinren, rw_shenheren, rw_startdate, rw_enddate
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from renwu
+    where rw_id = #{rwId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from renwu
+    where rw_id = #{rwId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Renwu">
+    insert into renwu (rw_id, rw_type, rw_number, 
+      rw_name, rw_shenqinren, rw_shenheren, 
+      rw_startdate, rw_enddate)
+    values (#{rwId,jdbcType=INTEGER}, #{rwType,jdbcType=INTEGER}, #{rwNumber,jdbcType=INTEGER}, 
+      #{rwName,jdbcType=VARCHAR}, #{rwShenqinren,jdbcType=INTEGER}, #{rwShenheren,jdbcType=INTEGER}, 
+      #{rwStartdate,jdbcType=DATE}, #{rwEnddate,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Renwu">
+    insert into renwu
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="rwId != null">
+        rw_id,
+      </if>
+      <if test="rwType != null">
+        rw_type,
+      </if>
+      <if test="rwNumber != null">
+        rw_number,
+      </if>
+      <if test="rwName != null">
+        rw_name,
+      </if>
+      <if test="rwShenqinren != null">
+        rw_shenqinren,
+      </if>
+      <if test="rwShenheren != null">
+        rw_shenheren,
+      </if>
+      <if test="rwStartdate != null">
+        rw_startdate,
+      </if>
+      <if test="rwEnddate != null">
+        rw_enddate,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="rwId != null">
+        #{rwId,jdbcType=INTEGER},
+      </if>
+      <if test="rwType != null">
+        #{rwType,jdbcType=INTEGER},
+      </if>
+      <if test="rwNumber != null">
+        #{rwNumber,jdbcType=INTEGER},
+      </if>
+      <if test="rwName != null">
+        #{rwName,jdbcType=VARCHAR},
+      </if>
+      <if test="rwShenqinren != null">
+        #{rwShenqinren,jdbcType=INTEGER},
+      </if>
+      <if test="rwShenheren != null">
+        #{rwShenheren,jdbcType=INTEGER},
+      </if>
+      <if test="rwStartdate != null">
+        #{rwStartdate,jdbcType=DATE},
+      </if>
+      <if test="rwEnddate != null">
+        #{rwEnddate,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Renwu">
+    update renwu
+    <set>
+      <if test="rwType != null">
+        rw_type = #{rwType,jdbcType=INTEGER},
+      </if>
+      <if test="rwNumber != null">
+        rw_number = #{rwNumber,jdbcType=INTEGER},
+      </if>
+      <if test="rwName != null">
+        rw_name = #{rwName,jdbcType=VARCHAR},
+      </if>
+      <if test="rwShenqinren != null">
+        rw_shenqinren = #{rwShenqinren,jdbcType=INTEGER},
+      </if>
+      <if test="rwShenheren != null">
+        rw_shenheren = #{rwShenheren,jdbcType=INTEGER},
+      </if>
+      <if test="rwStartdate != null">
+        rw_startdate = #{rwStartdate,jdbcType=DATE},
+      </if>
+      <if test="rwEnddate != null">
+        rw_enddate = #{rwEnddate,jdbcType=DATE},
+      </if>
+    </set>
+    where rw_id = #{rwId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Renwu">
+    update renwu
+    set rw_type = #{rwType,jdbcType=INTEGER},
+      rw_number = #{rwNumber,jdbcType=INTEGER},
+      rw_name = #{rwName,jdbcType=VARCHAR},
+      rw_shenqinren = #{rwShenqinren,jdbcType=INTEGER},
+      rw_shenheren = #{rwShenheren,jdbcType=INTEGER},
+      rw_startdate = #{rwStartdate,jdbcType=DATE},
+      rw_enddate = #{rwEnddate,jdbcType=DATE}
+    where rw_id = #{rwId,jdbcType=INTEGER}
+  </update>
+</mapper>

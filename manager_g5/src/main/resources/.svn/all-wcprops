@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/manager_g5/!svn/ver/1/src/main/resources
+END
+generateConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/manager_g5/!svn/ver/1/src/main/resources/generateConfig.xml
+END
+spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/manager_g5/!svn/ver/1/src/main/resources/spring.xml
+END
+mybatis.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/manager_g5/!svn/ver/1/src/main/resources/mybatis.xml
+END

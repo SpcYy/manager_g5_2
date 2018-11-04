@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/UserService.java
+END
+IncomeproofService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/IncomeproofService.java
+END
+LogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/LogService.java
+END
+TongzhiService.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/TongzhiService.java
+END
+BookborrowService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/BookborrowService.java
+END
+RoleMenuService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/RoleMenuService.java
+END
+ChapterService.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/ChapterService.java
+END
+FilemanageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/FilemanageService.java
+END
+BookService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/BookService.java
+END
+LeaveService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/LeaveService.java
+END
+DeptService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/DeptService.java
+END
+RoomYudingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/RoomYudingService.java
+END
+RenwuService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/RenwuService.java
+END
+RoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/RoleService.java
+END
+CarReserveService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/CarReserveService.java
+END
+BstrequestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/BstrequestService.java
+END
+MenuService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/MenuService.java
+END
+CarService.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/CarService.java
+END
+AgencyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/AgencyService.java
+END
+BscardprintService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/BscardprintService.java
+END
+RoomService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/manager_g5/!svn/ver/1/src/main/java/com/service/RoomService.java
+END

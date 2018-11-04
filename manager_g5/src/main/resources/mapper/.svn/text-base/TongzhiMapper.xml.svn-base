@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.TongzhiMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Tongzhi">
+    <id column="tz_id" jdbcType="INTEGER" property="tzId" />
+    <result column="tz_title" jdbcType="VARCHAR" property="tzTitle" />
+    <result column="tz_startdate" jdbcType="DATE" property="tzStartdate" />
+    <result column="tz_enddate" jdbcType="DATE" property="tzEnddate" />
+    <result column="tz_fabudate" jdbcType="DATE" property="tzFabudate" />
+    <result column="tz_faburen" jdbcType="INTEGER" property="tzFaburen" />
+    <result column="tz_content" jdbcType="VARCHAR" property="tzContent" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    tz_id, tz_title, tz_startdate, tz_enddate, tz_fabudate, tz_faburen, tz_content
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tongzhi
+    where tz_id = #{tzId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from tongzhi
+    where tz_id = #{tzId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Tongzhi">
+    insert into tongzhi (tz_id, tz_title, tz_startdate, 
+      tz_enddate, tz_fabudate, tz_faburen, 
+      tz_content)
+    values (#{tzId,jdbcType=INTEGER}, #{tzTitle,jdbcType=VARCHAR}, #{tzStartdate,jdbcType=DATE}, 
+      #{tzEnddate,jdbcType=DATE}, #{tzFabudate,jdbcType=DATE}, #{tzFaburen,jdbcType=INTEGER}, 
+      #{tzContent,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Tongzhi">
+    insert into tongzhi
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="tzId != null">
+        tz_id,
+      </if>
+      <if test="tzTitle != null">
+        tz_title,
+      </if>
+      <if test="tzStartdate != null">
+        tz_startdate,
+      </if>
+      <if test="tzEnddate != null">
+        tz_enddate,
+      </if>
+      <if test="tzFabudate != null">
+        tz_fabudate,
+      </if>
+      <if test="tzFaburen != null">
+        tz_faburen,
+      </if>
+      <if test="tzContent != null">
+        tz_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="tzId != null">
+        #{tzId,jdbcType=INTEGER},
+      </if>
+      <if test="tzTitle != null">
+        #{tzTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="tzStartdate != null">
+        #{tzStartdate,jdbcType=DATE},
+      </if>
+      <if test="tzEnddate != null">
+        #{tzEnddate,jdbcType=DATE},
+      </if>
+      <if test="tzFabudate != null">
+        #{tzFabudate,jdbcType=DATE},
+      </if>
+      <if test="tzFaburen != null">
+        #{tzFaburen,jdbcType=INTEGER},
+      </if>
+      <if test="tzContent != null">
+        #{tzContent,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Tongzhi">
+    update tongzhi
+    <set>
+      <if test="tzTitle != null">
+        tz_title = #{tzTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="tzStartdate != null">
+        tz_startdate = #{tzStartdate,jdbcType=DATE},
+      </if>
+      <if test="tzEnddate != null">
+        tz_enddate = #{tzEnddate,jdbcType=DATE},
+      </if>
+      <if test="tzFabudate != null">
+        tz_fabudate = #{tzFabudate,jdbcType=DATE},
+      </if>
+      <if test="tzFaburen != null">
+        tz_faburen = #{tzFaburen,jdbcType=INTEGER},
+      </if>
+      <if test="tzContent != null">
+        tz_content = #{tzContent,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where tz_id = #{tzId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Tongzhi">
+    update tongzhi
+    set tz_title = #{tzTitle,jdbcType=VARCHAR},
+      tz_startdate = #{tzStartdate,jdbcType=DATE},
+      tz_enddate = #{tzEnddate,jdbcType=DATE},
+      tz_fabudate = #{tzFabudate,jdbcType=DATE},
+      tz_faburen = #{tzFaburen,jdbcType=INTEGER},
+      tz_content = #{tzContent,jdbcType=VARCHAR}
+    where tz_id = #{tzId,jdbcType=INTEGER}
+  </update>
+</mapper>

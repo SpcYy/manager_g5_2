@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.IncomeproofMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Incomeproof">
+    <id column="income_id" jdbcType="INTEGER" property="incomeId" />
+    <result column="income_deptid" jdbcType="INTEGER" property="incomeDeptid" />
+    <result column="income_duty" jdbcType="VARCHAR" property="incomeDuty" />
+    <result column="income_date" jdbcType="DATE" property="incomeDate" />
+    <result column="income_reason" jdbcType="VARCHAR" property="incomeReason" />
+    <result column="income_approid" jdbcType="INTEGER" property="incomeApproid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    income_id, income_deptid, income_duty, income_date, income_reason, income_approid
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from incomeproof
+    where income_id = #{incomeId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from incomeproof
+    where income_id = #{incomeId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Incomeproof">
+    insert into incomeproof (income_id, income_deptid, income_duty, 
+      income_date, income_reason, income_approid
+      )
+    values (#{incomeId,jdbcType=INTEGER}, #{incomeDeptid,jdbcType=INTEGER}, #{incomeDuty,jdbcType=VARCHAR}, 
+      #{incomeDate,jdbcType=DATE}, #{incomeReason,jdbcType=VARCHAR}, #{incomeApproid,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Incomeproof">
+    insert into incomeproof
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="incomeId != null">
+        income_id,
+      </if>
+      <if test="incomeDeptid != null">
+        income_deptid,
+      </if>
+      <if test="incomeDuty != null">
+        income_duty,
+      </if>
+      <if test="incomeDate != null">
+        income_date,
+      </if>
+      <if test="incomeReason != null">
+        income_reason,
+      </if>
+      <if test="incomeApproid != null">
+        income_approid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="incomeId != null">
+        #{incomeId,jdbcType=INTEGER},
+      </if>
+      <if test="incomeDeptid != null">
+        #{incomeDeptid,jdbcType=INTEGER},
+      </if>
+      <if test="incomeDuty != null">
+        #{incomeDuty,jdbcType=VARCHAR},
+      </if>
+      <if test="incomeDate != null">
+        #{incomeDate,jdbcType=DATE},
+      </if>
+      <if test="incomeReason != null">
+        #{incomeReason,jdbcType=VARCHAR},
+      </if>
+      <if test="incomeApproid != null">
+        #{incomeApproid,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Incomeproof">
+    update incomeproof
+    <set>
+      <if test="incomeDeptid != null">
+        income_deptid = #{incomeDeptid,jdbcType=INTEGER},
+      </if>
+      <if test="incomeDuty != null">
+        income_duty = #{incomeDuty,jdbcType=VARCHAR},
+      </if>
+      <if test="incomeDate != null">
+        income_date = #{incomeDate,jdbcType=DATE},
+      </if>
+      <if test="incomeReason != null">
+        income_reason = #{incomeReason,jdbcType=VARCHAR},
+      </if>
+      <if test="incomeApproid != null">
+        income_approid = #{incomeApproid,jdbcType=INTEGER},
+      </if>
+    </set>
+    where income_id = #{incomeId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Incomeproof">
+    update incomeproof
+    set income_deptid = #{incomeDeptid,jdbcType=INTEGER},
+      income_duty = #{incomeDuty,jdbcType=VARCHAR},
+      income_date = #{incomeDate,jdbcType=DATE},
+      income_reason = #{incomeReason,jdbcType=VARCHAR},
+      income_approid = #{incomeApproid,jdbcType=INTEGER}
+    where income_id = #{incomeId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao
+END
+BookMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/BookMapper.java
+END
+LeaveMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/LeaveMapper.java
+END
+DeptMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/DeptMapper.java
+END
+RoomYudingMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/RoomYudingMapper.java
+END
+RenwuMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/RenwuMapper.java
+END
+RoleMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/RoleMapper.java
+END
+CarReserveMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/CarReserveMapper.java
+END
+BstrequestMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/BstrequestMapper.java
+END
+MenuMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/MenuMapper.java
+END
+CarMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/CarMapper.java
+END
+AgencyMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/AgencyMapper.java
+END
+BscardprintMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/BscardprintMapper.java
+END
+RoomMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/RoomMapper.java
+END
+UserMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/UserMapper.java
+END
+IncomeproofMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/IncomeproofMapper.java
+END
+LogMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/LogMapper.java
+END
+TongzhiMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/TongzhiMapper.java
+END
+BookborrowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/BookborrowMapper.java
+END
+ChapterMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/ChapterMapper.java
+END
+RoleMenuMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/RoleMenuMapper.java
+END
+FilemanageMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/manager_g5/!svn/ver/1/src/main/java/com/dao/FilemanageMapper.java
+END

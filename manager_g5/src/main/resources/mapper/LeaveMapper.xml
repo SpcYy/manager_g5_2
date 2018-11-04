@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.LeaveMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Leave">
+    <id column="le_id" jdbcType="INTEGER" property="leId" />
+    <result column="le_shenqinren" jdbcType="INTEGER" property="leShenqinren" />
+    <result column="le_bumen" jdbcType="INTEGER" property="leBumen" />
+    <result column="le_startdate" jdbcType="DATE" property="leStartdate" />
+    <result column="le_enddate" jdbcType="DATE" property="leEnddate" />
+    <result column="le_num" jdbcType="INTEGER" property="leNum" />
+    <result column="le_leavetype" jdbcType="INTEGER" property="leLeavetype" />
+    <result column="le_leavebecause" jdbcType="VARCHAR" property="leLeavebecause" />
+    <result column="le_shenpiren" jdbcType="INTEGER" property="leShenpiren" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    le_id, le_shenqinren, le_bumen, le_startdate, le_enddate, le_num, le_leavetype, le_leavebecause, 
+    le_shenpiren
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from leave
+    where le_id = #{leId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from leave
+    where le_id = #{leId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Leave">
+    insert into leave (le_id, le_shenqinren, le_bumen, 
+      le_startdate, le_enddate, le_num, 
+      le_leavetype, le_leavebecause, le_shenpiren
+      )
+    values (#{leId,jdbcType=INTEGER}, #{leShenqinren,jdbcType=INTEGER}, #{leBumen,jdbcType=INTEGER}, 
+      #{leStartdate,jdbcType=DATE}, #{leEnddate,jdbcType=DATE}, #{leNum,jdbcType=INTEGER}, 
+      #{leLeavetype,jdbcType=INTEGER}, #{leLeavebecause,jdbcType=VARCHAR}, #{leShenpiren,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Leave">
+    insert into leave
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="leId != null">
+        le_id,
+      </if>
+      <if test="leShenqinren != null">
+        le_shenqinren,
+      </if>
+      <if test="leBumen != null">
+        le_bumen,
+      </if>
+      <if test="leStartdate != null">
+        le_startdate,
+      </if>
+      <if test="leEnddate != null">
+        le_enddate,
+      </if>
+      <if test="leNum != null">
+        le_num,
+      </if>
+      <if test="leLeavetype != null">
+        le_leavetype,
+      </if>
+      <if test="leLeavebecause != null">
+        le_leavebecause,
+      </if>
+      <if test="leShenpiren != null">
+        le_shenpiren,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="leId != null">
+        #{leId,jdbcType=INTEGER},
+      </if>
+      <if test="leShenqinren != null">
+        #{leShenqinren,jdbcType=INTEGER},
+      </if>
+      <if test="leBumen != null">
+        #{leBumen,jdbcType=INTEGER},
+      </if>
+      <if test="leStartdate != null">
+        #{leStartdate,jdbcType=DATE},
+      </if>
+      <if test="leEnddate != null">
+        #{leEnddate,jdbcType=DATE},
+      </if>
+      <if test="leNum != null">
+        #{leNum,jdbcType=INTEGER},
+      </if>
+      <if test="leLeavetype != null">
+        #{leLeavetype,jdbcType=INTEGER},
+      </if>
+      <if test="leLeavebecause != null">
+        #{leLeavebecause,jdbcType=VARCHAR},
+      </if>
+      <if test="leShenpiren != null">
+        #{leShenpiren,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Leave">
+    update leave
+    <set>
+      <if test="leShenqinren != null">
+        le_shenqinren = #{leShenqinren,jdbcType=INTEGER},
+      </if>
+      <if test="leBumen != null">
+        le_bumen = #{leBumen,jdbcType=INTEGER},
+      </if>
+      <if test="leStartdate != null">
+        le_startdate = #{leStartdate,jdbcType=DATE},
+      </if>
+      <if test="leEnddate != null">
+        le_enddate = #{leEnddate,jdbcType=DATE},
+      </if>
+      <if test="leNum != null">
+        le_num = #{leNum,jdbcType=INTEGER},
+      </if>
+      <if test="leLeavetype != null">
+        le_leavetype = #{leLeavetype,jdbcType=INTEGER},
+      </if>
+      <if test="leLeavebecause != null">
+        le_leavebecause = #{leLeavebecause,jdbcType=VARCHAR},
+      </if>
+      <if test="leShenpiren != null">
+        le_shenpiren = #{leShenpiren,jdbcType=INTEGER},
+      </if>
+    </set>
+    where le_id = #{leId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Leave">
+    update leave
+    set le_shenqinren = #{leShenqinren,jdbcType=INTEGER},
+      le_bumen = #{leBumen,jdbcType=INTEGER},
+      le_startdate = #{leStartdate,jdbcType=DATE},
+      le_enddate = #{leEnddate,jdbcType=DATE},
+      le_num = #{leNum,jdbcType=INTEGER},
+      le_leavetype = #{leLeavetype,jdbcType=INTEGER},
+      le_leavebecause = #{leLeavebecause,jdbcType=VARCHAR},
+      le_shenpiren = #{leShenpiren,jdbcType=INTEGER}
+    where le_id = #{leId,jdbcType=INTEGER}
+  </update>
+</mapper>

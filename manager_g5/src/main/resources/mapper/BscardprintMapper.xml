@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.BscardprintMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Bscardprint">
+    <id column="bscard_id" jdbcType="INTEGER" property="bscardId" />
+    <result column="bscard_applicatid" jdbcType="INTEGER" property="bscardApplicatid" />
+    <result column="bscard_date" jdbcType="DATE" property="bscardDate" />
+    <result column="bscard_duty" jdbcType="VARCHAR" property="bscardDuty" />
+    <result column="bscard_phone" jdbcType="VARCHAR" property="bscardPhone" />
+    <result column="bscard_num" jdbcType="INTEGER" property="bscardNum" />
+    <result column="bscard_comment" jdbcType="VARCHAR" property="bscardComment" />
+    <result column="bscard_approid" jdbcType="INTEGER" property="bscardApproid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    bscard_id, bscard_applicatid, bscard_date, bscard_duty, bscard_phone, bscard_num, 
+    bscard_comment, bscard_approid
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from bscardprint
+    where bscard_id = #{bscardId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from bscardprint
+    where bscard_id = #{bscardId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Bscardprint">
+    insert into bscardprint (bscard_id, bscard_applicatid, bscard_date, 
+      bscard_duty, bscard_phone, bscard_num, 
+      bscard_comment, bscard_approid)
+    values (#{bscardId,jdbcType=INTEGER}, #{bscardApplicatid,jdbcType=INTEGER}, #{bscardDate,jdbcType=DATE}, 
+      #{bscardDuty,jdbcType=VARCHAR}, #{bscardPhone,jdbcType=VARCHAR}, #{bscardNum,jdbcType=INTEGER}, 
+      #{bscardComment,jdbcType=VARCHAR}, #{bscardApproid,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Bscardprint">
+    insert into bscardprint
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="bscardId != null">
+        bscard_id,
+      </if>
+      <if test="bscardApplicatid != null">
+        bscard_applicatid,
+      </if>
+      <if test="bscardDate != null">
+        bscard_date,
+      </if>
+      <if test="bscardDuty != null">
+        bscard_duty,
+      </if>
+      <if test="bscardPhone != null">
+        bscard_phone,
+      </if>
+      <if test="bscardNum != null">
+        bscard_num,
+      </if>
+      <if test="bscardComment != null">
+        bscard_comment,
+      </if>
+      <if test="bscardApproid != null">
+        bscard_approid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="bscardId != null">
+        #{bscardId,jdbcType=INTEGER},
+      </if>
+      <if test="bscardApplicatid != null">
+        #{bscardApplicatid,jdbcType=INTEGER},
+      </if>
+      <if test="bscardDate != null">
+        #{bscardDate,jdbcType=DATE},
+      </if>
+      <if test="bscardDuty != null">
+        #{bscardDuty,jdbcType=VARCHAR},
+      </if>
+      <if test="bscardPhone != null">
+        #{bscardPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="bscardNum != null">
+        #{bscardNum,jdbcType=INTEGER},
+      </if>
+      <if test="bscardComment != null">
+        #{bscardComment,jdbcType=VARCHAR},
+      </if>
+      <if test="bscardApproid != null">
+        #{bscardApproid,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Bscardprint">
+    update bscardprint
+    <set>
+      <if test="bscardApplicatid != null">
+        bscard_applicatid = #{bscardApplicatid,jdbcType=INTEGER},
+      </if>
+      <if test="bscardDate != null">
+        bscard_date = #{bscardDate,jdbcType=DATE},
+      </if>
+      <if test="bscardDuty != null">
+        bscard_duty = #{bscardDuty,jdbcType=VARCHAR},
+      </if>
+      <if test="bscardPhone != null">
+        bscard_phone = #{bscardPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="bscardNum != null">
+        bscard_num = #{bscardNum,jdbcType=INTEGER},
+      </if>
+      <if test="bscardComment != null">
+        bscard_comment = #{bscardComment,jdbcType=VARCHAR},
+      </if>
+      <if test="bscardApproid != null">
+        bscard_approid = #{bscardApproid,jdbcType=INTEGER},
+      </if>
+    </set>
+    where bscard_id = #{bscardId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Bscardprint">
+    update bscardprint
+    set bscard_applicatid = #{bscardApplicatid,jdbcType=INTEGER},
+      bscard_date = #{bscardDate,jdbcType=DATE},
+      bscard_duty = #{bscardDuty,jdbcType=VARCHAR},
+      bscard_phone = #{bscardPhone,jdbcType=VARCHAR},
+      bscard_num = #{bscardNum,jdbcType=INTEGER},
+      bscard_comment = #{bscardComment,jdbcType=VARCHAR},
+      bscard_approid = #{bscardApproid,jdbcType=INTEGER}
+    where bscard_id = #{bscardId,jdbcType=INTEGER}
+  </update>
+</mapper>

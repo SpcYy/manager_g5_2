@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.MenuMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Menu">
+    <id column="m_id" jdbcType="INTEGER" property="mId" />
+    <result column="m_load" jdbcType="VARCHAR" property="mLoad" />
+    <result column="m_upload" jdbcType="INTEGER" property="mUpload" />
+    <result column="m_state" jdbcType="INTEGER" property="mState" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    m_id, m_load, m_upload, m_state
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from menu
+    where m_id = #{mId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from menu
+    where m_id = #{mId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Menu">
+    insert into menu (m_id, m_load, m_upload, 
+      m_state)
+    values (#{mId,jdbcType=INTEGER}, #{mLoad,jdbcType=VARCHAR}, #{mUpload,jdbcType=INTEGER}, 
+      #{mState,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Menu">
+    insert into menu
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="mId != null">
+        m_id,
+      </if>
+      <if test="mLoad != null">
+        m_load,
+      </if>
+      <if test="mUpload != null">
+        m_upload,
+      </if>
+      <if test="mState != null">
+        m_state,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="mId != null">
+        #{mId,jdbcType=INTEGER},
+      </if>
+      <if test="mLoad != null">
+        #{mLoad,jdbcType=VARCHAR},
+      </if>
+      <if test="mUpload != null">
+        #{mUpload,jdbcType=INTEGER},
+      </if>
+      <if test="mState != null">
+        #{mState,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Menu">
+    update menu
+    <set>
+      <if test="mLoad != null">
+        m_load = #{mLoad,jdbcType=VARCHAR},
+      </if>
+      <if test="mUpload != null">
+        m_upload = #{mUpload,jdbcType=INTEGER},
+      </if>
+      <if test="mState != null">
+        m_state = #{mState,jdbcType=INTEGER},
+      </if>
+    </set>
+    where m_id = #{mId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Menu">
+    update menu
+    set m_load = #{mLoad,jdbcType=VARCHAR},
+      m_upload = #{mUpload,jdbcType=INTEGER},
+      m_state = #{mState,jdbcType=INTEGER}
+    where m_id = #{mId,jdbcType=INTEGER}
+  </update>
+</mapper>

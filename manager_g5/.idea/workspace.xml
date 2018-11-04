@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acaff53c-a91d-4743-85d9-4ab0819957f7" name="Default Changelist" comment="第二版">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/manager_g5_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/manager_g5_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__logkit_logkit_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_jetty_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_11_v20180605.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_11_v20180605.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_11_v20180605.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_11_v20180605.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_11_v20180605.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_11_v20180605.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_g5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Agency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Bookborrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Bscardprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Bstrequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/CarReserve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Chapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Filemanage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Incomeproof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Leave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Renwu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/RoleMenuKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/RoomYuding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Tongzhi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/AgencyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/BookborrowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/BscardprintMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/BstrequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/CarMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/CarReserveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/ChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/FilemanageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/IncomeproofMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/LeaveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/LogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/RenwuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/RoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/RoomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/RoomYudingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/TongzhiMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/AgencyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/BookborrowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/BscardprintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/BstrequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/CarReserveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/ChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/FilemanageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/IncomeproofService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/LeaveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RenwuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/RoomYudingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/TongzhiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/AgencyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/BookborrowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/BscardprintServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/BstrequestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/CarReserveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/CarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/ChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/FilemanageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/IncomeproofServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/LeaveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/RenwuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/RoomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/RoomYudingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/TongzhiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/AgencyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/BookborrowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/BscardprintController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/BstrequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/CarReserveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/ChapterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/FilemanageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/IncomeproofController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/LeaveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/RenwuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/RoleMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/RoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/RoomYudingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/TongzhiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generateConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AgencyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookborrowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BscardprintMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BstrequestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CarReserveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FilemanageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/IncomeproofMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LeaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RenwuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoomYudingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TongzhiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/111111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/99.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ScreenLockBut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bom_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bottom_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/box_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_add_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_checked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_checked_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_config.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_config_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_count.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_count_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_del_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_export.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_export_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_nochecked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_nochecked_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_recycle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_recycle_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_res.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_res_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_save2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_save2_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_search_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/columns.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ext_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ext_btn_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/here.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/1_131023153541_1_08dd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/1a8efa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/footer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/login-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/logoBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/pwd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/pwd.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/topBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/topleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/username.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login/verify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/res_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/scroll_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shugang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/side_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/side_h3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/side_h3_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/side_li.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/side_li_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/side_li_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/side_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sub_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tab1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tab2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/titleBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/userBG.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/colResizable-1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo1/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo1/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo1/look1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo2/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo2/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo3/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo4/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo4/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/myself/demo4/look1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/renshi/demo1/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/renshi/demo2/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/renshi/demo3/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/log/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/menu/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/menu/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/menu/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/menu/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/role/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/role/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/role/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/role/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/user/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/user/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/user/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/system/user/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/tonggao/demo1/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/tonggao/demo1/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/tonggao/demo1/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/tonggao/demo1/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo1/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo1/add1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo1/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo1/edit1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo1/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo1/list1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo1/look.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/wendang/demo2/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo1/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo1/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo1/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo1/list1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo1/yuding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo2/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo2/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo2/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo2/yuding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo3/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo4/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/xingzheng/demo5/list.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-60557056">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="61" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="61" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1331686196">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/DeptMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BstrequestMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AgencyMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BscardprintMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/MenuMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/TongzhiMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BookMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AgencyMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Agency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/BscardprintServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/BstrequestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/ChapterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generateConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/BookMapper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="411" />
+    <option name="y" value="8" />
+    <option name="width" value="1295" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manager_g5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager_g5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager_g5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager_g5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager_g5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager_g5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager_g5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager_g5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager_g5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager_g5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager_g5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager_g5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541328496589" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAwork\manager_g5\manager_g5\src\main\resources\mapper" />
+      <recent name="E:\IDEAwork\manager_g5\manager_g5\src\main\java\com\dao" />
+      <recent name="E:\IDEAwork\manager_g5\manager_g5\src\main\java\com\bean" />
+      <recent name="E:\IDEAwork\manager_g5\manager_g5\src\main\java\com" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acaff53c-a91d-4743-85d9-4ab0819957f7" name="Default Changelist" comment="" />
+      <created>1541311066998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541311066998</updated>
+      <workItem from="1541311068304" duration="1244000" />
+      <workItem from="1541312417949" duration="1698000" />
+      <workItem from="1541327067312" duration="128000" />
+      <workItem from="1541327223008" duration="1273000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1541327111632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541327111632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4343000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="329" y="7" width="1036" height="796" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40593046" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3298193" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="BPMNPalette" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第二版" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二版" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BscardprintMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Bscardprint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/AgencyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BookborrowServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BscardprintServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BstrequestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/CarReserveServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/CarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/ChapterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/FilemanageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/IncomeproofServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/LeaveServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/RenwuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/RoleMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/RoomServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/RoomYudingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/TongzhiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generateConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/RoleMenuKey.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Book.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Incomeproof.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/RoomYuding.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Bstrequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Leave.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Room.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Filemanage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Log.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/RoomMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/LeaveMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BstrequestMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/AgencyMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BscardprintMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/TongzhiMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AgencyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Agency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

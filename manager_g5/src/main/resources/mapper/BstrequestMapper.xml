@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.BstrequestMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Bstrequest">
+    <id column="bstreq_id" jdbcType="INTEGER" property="bstreqId" />
+    <result column="bstreq_appliactid" jdbcType="VARCHAR" property="bstreqAppliactid" />
+    <result column="bstreq_begin" jdbcType="DATE" property="bstreqBegin" />
+    <result column="bstreq_end" jdbcType="DATE" property="bstreqEnd" />
+    <result column="bstreq_address" jdbcType="VARCHAR" property="bstreqAddress" />
+    <result column="bstreq_carid" jdbcType="INTEGER" property="bstreqCarid" />
+    <result column="bstreq_reason" jdbcType="VARCHAR" property="bstreqReason" />
+    <result column="bstreq_money" jdbcType="INTEGER" property="bstreqMoney" />
+    <result column="bstreq_approid" jdbcType="INTEGER" property="bstreqApproid" />
+    <result column="bstreq_task" jdbcType="VARCHAR" property="bstreqTask" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    bstreq_id, bstreq_appliactid, bstreq_begin, bstreq_end, bstreq_address, bstreq_carid, 
+    bstreq_reason, bstreq_money, bstreq_approid, bstreq_task
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from bstrequest
+    where bstreq_id = #{bstreqId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from bstrequest
+    where bstreq_id = #{bstreqId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Bstrequest">
+    insert into bstrequest (bstreq_id, bstreq_appliactid, bstreq_begin, 
+      bstreq_end, bstreq_address, bstreq_carid, 
+      bstreq_reason, bstreq_money, bstreq_approid, 
+      bstreq_task)
+    values (#{bstreqId,jdbcType=INTEGER}, #{bstreqAppliactid,jdbcType=VARCHAR}, #{bstreqBegin,jdbcType=DATE}, 
+      #{bstreqEnd,jdbcType=DATE}, #{bstreqAddress,jdbcType=VARCHAR}, #{bstreqCarid,jdbcType=INTEGER}, 
+      #{bstreqReason,jdbcType=VARCHAR}, #{bstreqMoney,jdbcType=INTEGER}, #{bstreqApproid,jdbcType=INTEGER}, 
+      #{bstreqTask,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Bstrequest">
+    insert into bstrequest
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="bstreqId != null">
+        bstreq_id,
+      </if>
+      <if test="bstreqAppliactid != null">
+        bstreq_appliactid,
+      </if>
+      <if test="bstreqBegin != null">
+        bstreq_begin,
+      </if>
+      <if test="bstreqEnd != null">
+        bstreq_end,
+      </if>
+      <if test="bstreqAddress != null">
+        bstreq_address,
+      </if>
+      <if test="bstreqCarid != null">
+        bstreq_carid,
+      </if>
+      <if test="bstreqReason != null">
+        bstreq_reason,
+      </if>
+      <if test="bstreqMoney != null">
+        bstreq_money,
+      </if>
+      <if test="bstreqApproid != null">
+        bstreq_approid,
+      </if>
+      <if test="bstreqTask != null">
+        bstreq_task,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="bstreqId != null">
+        #{bstreqId,jdbcType=INTEGER},
+      </if>
+      <if test="bstreqAppliactid != null">
+        #{bstreqAppliactid,jdbcType=VARCHAR},
+      </if>
+      <if test="bstreqBegin != null">
+        #{bstreqBegin,jdbcType=DATE},
+      </if>
+      <if test="bstreqEnd != null">
+        #{bstreqEnd,jdbcType=DATE},
+      </if>
+      <if test="bstreqAddress != null">
+        #{bstreqAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="bstreqCarid != null">
+        #{bstreqCarid,jdbcType=INTEGER},
+      </if>
+      <if test="bstreqReason != null">
+        #{bstreqReason,jdbcType=VARCHAR},
+      </if>
+      <if test="bstreqMoney != null">
+        #{bstreqMoney,jdbcType=INTEGER},
+      </if>
+      <if test="bstreqApproid != null">
+        #{bstreqApproid,jdbcType=INTEGER},
+      </if>
+      <if test="bstreqTask != null">
+        #{bstreqTask,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Bstrequest">
+    update bstrequest
+    <set>
+      <if test="bstreqAppliactid != null">
+        bstreq_appliactid = #{bstreqAppliactid,jdbcType=VARCHAR},
+      </if>
+      <if test="bstreqBegin != null">
+        bstreq_begin = #{bstreqBegin,jdbcType=DATE},
+      </if>
+      <if test="bstreqEnd != null">
+        bstreq_end = #{bstreqEnd,jdbcType=DATE},
+      </if>
+      <if test="bstreqAddress != null">
+        bstreq_address = #{bstreqAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="bstreqCarid != null">
+        bstreq_carid = #{bstreqCarid,jdbcType=INTEGER},
+      </if>
+      <if test="bstreqReason != null">
+        bstreq_reason = #{bstreqReason,jdbcType=VARCHAR},
+      </if>
+      <if test="bstreqMoney != null">
+        bstreq_money = #{bstreqMoney,jdbcType=INTEGER},
+      </if>
+      <if test="bstreqApproid != null">
+        bstreq_approid = #{bstreqApproid,jdbcType=INTEGER},
+      </if>
+      <if test="bstreqTask != null">
+        bstreq_task = #{bstreqTask,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where bstreq_id = #{bstreqId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Bstrequest">
+    update bstrequest
+    set bstreq_appliactid = #{bstreqAppliactid,jdbcType=VARCHAR},
+      bstreq_begin = #{bstreqBegin,jdbcType=DATE},
+      bstreq_end = #{bstreqEnd,jdbcType=DATE},
+      bstreq_address = #{bstreqAddress,jdbcType=VARCHAR},
+      bstreq_carid = #{bstreqCarid,jdbcType=INTEGER},
+      bstreq_reason = #{bstreqReason,jdbcType=VARCHAR},
+      bstreq_money = #{bstreqMoney,jdbcType=INTEGER},
+      bstreq_approid = #{bstreqApproid,jdbcType=INTEGER},
+      bstreq_task = #{bstreqTask,jdbcType=VARCHAR}
+    where bstreq_id = #{bstreqId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.AgencyMapper">
+  <resultMap id="BaseResultMap" type="com.bean.Agency">
+    <id column="agency_id" jdbcType="INTEGER" property="agencyId" />
+    <result column="agency_name" jdbcType="VARCHAR" property="agencyName" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    agency_id, agency_name
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from agency
+    where agency_id = #{agencyId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from agency
+    where agency_id = #{agencyId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.Agency">
+    insert into agency (agency_id, agency_name)
+    values (#{agencyId,jdbcType=INTEGER}, #{agencyName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.Agency">
+    insert into agency
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="agencyId != null">
+        agency_id,
+      </if>
+      <if test="agencyName != null">
+        agency_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="agencyId != null">
+        #{agencyId,jdbcType=INTEGER},
+      </if>
+      <if test="agencyName != null">
+        #{agencyName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.Agency">
+    update agency
+    <set>
+      <if test="agencyName != null">
+        agency_name = #{agencyName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where agency_id = #{agencyId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.Agency">
+    update agency
+    set agency_name = #{agencyName,jdbcType=VARCHAR}
+    where agency_id = #{agencyId,jdbcType=INTEGER}
+  </update>
+</mapper>

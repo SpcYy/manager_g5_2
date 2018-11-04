@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.RoomYudingMapper">
+  <resultMap id="BaseResultMap" type="com.bean.RoomYuding">
+    <id column="yd_id" jdbcType="INTEGER" property="ydId" />
+    <result column="yd_roomnameid" jdbcType="INTEGER" property="ydRoomnameid" />
+    <result column="yd_start" jdbcType="DATE" property="ydStart" />
+    <result column="yd_end" jdbcType="DATE" property="ydEnd" />
+    <result column="yd_as" jdbcType="INTEGER" property="ydAs" />
+    <result column="yd_usernameid" jdbcType="INTEGER" property="ydUsernameid" />
+    <result column="yd_shenpirenid" jdbcType="INTEGER" property="ydShenpirenid" />
+    <result column="yd_shenpistate" jdbcType="INTEGER" property="ydShenpistate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    yd_id, yd_roomnameid, yd_start, yd_end, yd_as, yd_usernameid, yd_shenpirenid, yd_shenpistate
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from room_yuding
+    where yd_id = #{ydId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from room_yuding
+    where yd_id = #{ydId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.bean.RoomYuding">
+    insert into room_yuding (yd_id, yd_roomnameid, yd_start, 
+      yd_end, yd_as, yd_usernameid, 
+      yd_shenpirenid, yd_shenpistate)
+    values (#{ydId,jdbcType=INTEGER}, #{ydRoomnameid,jdbcType=INTEGER}, #{ydStart,jdbcType=DATE}, 
+      #{ydEnd,jdbcType=DATE}, #{ydAs,jdbcType=INTEGER}, #{ydUsernameid,jdbcType=INTEGER}, 
+      #{ydShenpirenid,jdbcType=INTEGER}, #{ydShenpistate,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.bean.RoomYuding">
+    insert into room_yuding
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="ydId != null">
+        yd_id,
+      </if>
+      <if test="ydRoomnameid != null">
+        yd_roomnameid,
+      </if>
+      <if test="ydStart != null">
+        yd_start,
+      </if>
+      <if test="ydEnd != null">
+        yd_end,
+      </if>
+      <if test="ydAs != null">
+        yd_as,
+      </if>
+      <if test="ydUsernameid != null">
+        yd_usernameid,
+      </if>
+      <if test="ydShenpirenid != null">
+        yd_shenpirenid,
+      </if>
+      <if test="ydShenpistate != null">
+        yd_shenpistate,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="ydId != null">
+        #{ydId,jdbcType=INTEGER},
+      </if>
+      <if test="ydRoomnameid != null">
+        #{ydRoomnameid,jdbcType=INTEGER},
+      </if>
+      <if test="ydStart != null">
+        #{ydStart,jdbcType=DATE},
+      </if>
+      <if test="ydEnd != null">
+        #{ydEnd,jdbcType=DATE},
+      </if>
+      <if test="ydAs != null">
+        #{ydAs,jdbcType=INTEGER},
+      </if>
+      <if test="ydUsernameid != null">
+        #{ydUsernameid,jdbcType=INTEGER},
+      </if>
+      <if test="ydShenpirenid != null">
+        #{ydShenpirenid,jdbcType=INTEGER},
+      </if>
+      <if test="ydShenpistate != null">
+        #{ydShenpistate,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bean.RoomYuding">
+    update room_yuding
+    <set>
+      <if test="ydRoomnameid != null">
+        yd_roomnameid = #{ydRoomnameid,jdbcType=INTEGER},
+      </if>
+      <if test="ydStart != null">
+        yd_start = #{ydStart,jdbcType=DATE},
+      </if>
+      <if test="ydEnd != null">
+        yd_end = #{ydEnd,jdbcType=DATE},
+      </if>
+      <if test="ydAs != null">
+        yd_as = #{ydAs,jdbcType=INTEGER},
+      </if>
+      <if test="ydUsernameid != null">
+        yd_usernameid = #{ydUsernameid,jdbcType=INTEGER},
+      </if>
+      <if test="ydShenpirenid != null">
+        yd_shenpirenid = #{ydShenpirenid,jdbcType=INTEGER},
+      </if>
+      <if test="ydShenpistate != null">
+        yd_shenpistate = #{ydShenpistate,jdbcType=INTEGER},
+      </if>
+    </set>
+    where yd_id = #{ydId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bean.RoomYuding">
+    update room_yuding
+    set yd_roomnameid = #{ydRoomnameid,jdbcType=INTEGER},
+      yd_start = #{ydStart,jdbcType=DATE},
+      yd_end = #{ydEnd,jdbcType=DATE},
+      yd_as = #{ydAs,jdbcType=INTEGER},
+      yd_usernameid = #{ydUsernameid,jdbcType=INTEGER},
+      yd_shenpirenid = #{ydShenpirenid,jdbcType=INTEGER},
+      yd_shenpistate = #{ydShenpistate,jdbcType=INTEGER}
+    where yd_id = #{ydId,jdbcType=INTEGER}
+  </update>
+</mapper>
